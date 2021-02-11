@@ -1,6 +1,6 @@
-import { connect } from 'react-redux';
-import { createStructuredSelector } from 'reselect';
-import {selectUserProfile} from '../../redux/user-reducer/user-selector';
+//import { connect } from 'react-redux';
+//import { createStructuredSelector } from 'reselect';
+//import {selectUserProfile} from '../../redux/user-reducer/user-selector';
 import { FaStar } from "@react-icons/all-files/fa/FaStar";
 import { FaMapMarkerAlt } from '@react-icons/all-files/fa/FaMapMarkerAlt'
 import { FaCalendarAlt } from '@react-icons/all-files/fa/FaCalendarAlt';
@@ -13,13 +13,14 @@ import CustomButton from '../button/button';
 
 const UserCard = ({users}) => {
     console.log(users.data)
-    const date = new Date().getMonth() + 1;
-    console.log(date);
+    
     const {profile_image, first_name_en, last_name_en, stars, response} = users.data;
     const {experience, created_at, languages} = users.data.provider_information;
     const {name} = users.data.location; 
+
+    const date = new Date().getMonth() + 1;
     const created = new Date(created_at).getMonth() + 1;
-    console.log(created);
+
     return (
         <div className='user-card'>
             <img src={profile_image} alt={first_name_en}/>
@@ -49,9 +50,10 @@ const UserCard = ({users}) => {
         </div>
     );
 };
-
+/*
 const mapStateToProps = createStructuredSelector({
     users: selectUserProfile
 })
-
-export default connect(mapStateToProps)(UserCard);
+*/
+// export default connect(mapStateToProps)(UserCard);
+export default UserCard;
