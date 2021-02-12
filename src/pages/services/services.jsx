@@ -11,7 +11,7 @@ import ServicesCom from '../../components/services-com/services-com';
 import ReviewsCom from '../../components/reviews/reviews';
 
 import { Container, Col, Row } from 'react-bootstrap';
-
+import './services.scss';
 
 const ServicesPage = ({users}) => (
     <Container fluid="xl">
@@ -20,7 +20,7 @@ const ServicesPage = ({users}) => (
                 <UserCard users={users}/>
             </Col>
 
-            <Col lg={8}>
+            <Col lg={8} className ="services-col">
                 <Acheive users={users} />
                 <ServicesNav />
                 <About users={users}/>
