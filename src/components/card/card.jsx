@@ -1,6 +1,3 @@
-//import { connect } from 'react-redux';
-//import { createStructuredSelector } from 'reselect';
-//import {selectUserProfile} from '../../redux/user-reducer/user-selector';
 import { FaStar } from "@react-icons/all-files/fa/FaStar";
 import { FaMapMarkerAlt } from '@react-icons/all-files/fa/FaMapMarkerAlt'
 import { FaCalendarAlt } from '@react-icons/all-files/fa/FaCalendarAlt';

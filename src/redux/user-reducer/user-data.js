@@ -10,6 +10,7 @@ const USER_DATA = {
        "cover_image":null,
        "email":"abdalrahimabuwarda@gmail.com",
        "phone_number":null,
+       "about":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
        "isActive":1,
        "isFilled":1,
        "type":"seller",
@@ -24,6 +25,8 @@ const USER_DATA = {
        "totalEarn":"170.00",
        "stars":5,
        "response":4,
+       "sold": 5,
+       "in_progress":3,
        "services":[
           {
              "id":98,
@@ -235,6 +238,24 @@ const USER_DATA = {
                 "skill_id":943
             }
          }
+      ],
+      "portfolio": [
+         {
+         'id': 1001,
+         'wImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+         },
+         {
+         'id': 1002,
+         'wImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676800270.png', 
+         },
+         {
+         'id': 1003,
+         'wImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+         },
+         {
+         'id': 1004,
+         'wImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676800270.png', 
+         },
       ]
    }
 }
