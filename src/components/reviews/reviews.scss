@@ -3,10 +3,22 @@
     font-weight: 600;
 }
 
-.div {}
-
 .img {
     width: 50px;
     border-radius: 100%;
 }
- 
+
+.comment {
+    font-size: 12px;
+}
+
+.date {
+    font-size: 10px;
+    opacity: 0.3;
+}
+
+.show {
+    font-size: 14px;
+    text-align: center;
+    color: #00aeef
+}
