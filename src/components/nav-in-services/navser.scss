@@ -1,0 +1,33 @@
+.services-nav {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    .option {
+        font-family: 'Roborto';
+        padding-right:  25px;
+        padding-bottom: 35px;
+        font-size: 18px;
+        cursor: pointer;
+        height: 32px;
+        text-decoration: none;
+        color: #000;
+        font-size: large;
+        transition: 0.5s;
+    }
+
+    .option:hover {
+        font-size: larger;
+        border-bottom: 5px green solid;
+    }
+
+    .option:focus {
+        font-size: larger;
+        border-bottom: 5px green solid;
+    }
+
+}
