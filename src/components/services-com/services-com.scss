@@ -1,7 +1,36 @@
+.name {
+  font-size: 10px;
+}
+
+img {
+  font-size: 25px;
+}
+
+.job {
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.stars {
+  font-size: 10px;
+  color:#5f9ea0;
+}
+
+.sold {
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.heart {
+  opacity: 0.3;
+  font-size: 15px;
+}
+
 .button {
-    width: 100%;
+    width: 60%;
     height: 50px;
-    margin-top: 10px;
+    margin-top: -30px;
+    margin-left: 50px;
     margin-bottom: 10px;
     letter-spacing: 0.5px;
     line-height: 50px;
@@ -23,6 +52,7 @@
       border: 1px solid black;
     }   
 }
+
 
 .image-port {
     display: block;

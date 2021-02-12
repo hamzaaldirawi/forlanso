@@ -63,12 +63,12 @@ const ServicesCom = ({users}) => {
                         <Col lg={4}>
                         <div key={service.id}> 
                             <img  className="image-port" src={service.servImg} />
-                            <h1>{first_name_en} {last_name_en}</h1>
-                            <span>{job_title}</span>
+                            <h1 className='name'>{first_name_en} {last_name_en}</h1>
+                            <span className='job'>{job_title}</span>
                             <p>{about_service}</p>
-                            <span><FaStar /> {stars}</span>
-                            <p>{service.sold} sold</p>
-                            <span><FaHeart /></span>
+                            <span className='stars'><FaStar /> {stars}</span>
+                            <p className='sold'>{service.sold} sold</p>
+                            <span className='heart'><FaHeart /></span>
                             <Button className="button">View</Button>
                         </div>
                         </Col>

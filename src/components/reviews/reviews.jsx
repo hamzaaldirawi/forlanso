@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import BeautyStars from 'beauty-stars';
+import './reviews.scss';
 
 const More = ({users}) => {
     const {reviews} = users.data;
@@ -39,15 +40,15 @@ const ReviewsCom = ({users}) => {
   
     return (
         <div>
-            <p id="reviews">Reviews</p>
-            <div>
+            <p className='reviews' id="reviews">Reviews</p>
+            <div className='div'>
                 {
                     reviews.filter((review, idx) => idx < 3)
                              .map(review => (
                     <div key={review.id}>
-                    <img src={review.userImg} />
-                    <p>{review.name}</p>
-                    <span>{(Math.floor((new Date().getTime() - new Date(review.date).getTime())/ (60*60*24*1000)))} <p>Days ago</p></span>
+                    <img className='img' src={review.userImg} />
+                    <p className='name'>{review.name}</p>
+                    <span className='date'>{(Math.floor((new Date().getTime() - new Date(review.date).getTime())/ (60*60*24*1000)))} <p>Days ago</p></span>
                     <BeautyStars
                         value={review.stars}
                     />
