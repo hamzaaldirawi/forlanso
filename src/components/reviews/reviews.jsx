@@ -10,13 +10,13 @@ const More = ({users}) => {
         {
             reviews.slice(3).map(review => (
                 <div key={review.id}>
-                <img src={review.userImg} />
-                <p>{review.name}</p>
-                <span>{(Math.floor((new Date().getTime() - new Date(review.date).getTime())/ (60*60*24*1000)))} <p>Days ago</p></span>
+                <img className='img' src={review.userImg} />
+                <p className='name'>{review.name}</p>
+                <span className='date'>{(Math.floor((new Date().getTime() - new Date(review.date).getTime())/ (60*60*24*1000)))} <p>Days ago</p></span>
                 <BeautyStars
                     value={review.stars}
                 />
-                <p>{review.comment}</p>
+                <p className='comment'>{review.comment}</p>
                 </div>
             ))
         }
