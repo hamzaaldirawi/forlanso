@@ -5,7 +5,7 @@ import { FaClock } from '@react-icons/all-files/fa/FaClock';
 import { FaStopwatch } from '@react-icons/all-files/fa/FaStopwatch';
 import { FaCommentAlt } from '@react-icons/all-files/fa/FaCommentAlt';
 
-import { Container, Col, Row, Button} from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import './card.scss';
 
 
