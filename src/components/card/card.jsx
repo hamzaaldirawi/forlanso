@@ -5,8 +5,7 @@ import { FaClock } from '@react-icons/all-files/fa/FaClock';
 import { FaStopwatch } from '@react-icons/all-files/fa/FaStopwatch';
 import { FaCommentAlt } from '@react-icons/all-files/fa/FaCommentAlt';
 
-import CustomButton from '../button/button';
-
+import { Container, Col, Row, Button} from 'react-bootstrap';
 import './card.scss';
 
 
@@ -20,32 +19,35 @@ const UserCard = ({users}) => {
     const created = new Date(created_at).getMonth() + 1;
 
     return (
-        <div className='user-card'>
-            <img className="image" src={profile_image} alt={first_name_en}/>
-            <h1>{first_name_en} {last_name_en} </h1>
-            <span><FaStar /> {stars}</span>
-            <h2>{experience}</h2>
-            <span><FaMapMarkerAlt /> {name}</span>
-            <CustomButton>Connect</CustomButton>
-            <span>
-                <FaCalendarAlt />
-                <p>Member since: {(date - created).toString()} Months</p>
-            </span>
-            <span>
-                <FaClock />
-                <p>Responsive time: {response} Hours</p>
-            </span>
-            <span>
-                <FaStopwatch />
-                <p>Last activity: {response} Hours</p>
-            </span>
-            <span>
-                <FaCommentAlt />
-                <p>Languages: {languages}</p>
-            </span>
+        <Container className="user-container">
+            <div className='user-card'>
+                <img className="image" src={profile_image} alt={first_name_en}/>
+                <div className="user-name-star">
+                    <h1 className="user-name">{first_name_en} {last_name_en} </h1>
+                    <span className="user-star"><FaStar /> {stars}</span>
+                </div>
+                <p className="user-xp">{experience}</p>
+                <span className="user-loc" ><FaMapMarkerAlt /> {name}</span>
+                <Button className="user-connect">Connect</Button>
+                <span className="user-all"> 
+                    <FaCalendarAlt />
+                    <p>Member since: {(date - created).toString()} Months</p>
+                </span>
+                <span className="user-all">
+                    <FaClock />
+                    <p>Responsive time: {response} Hours</p>
+                </span>
+                <span className="user-all" >
+                    <FaStopwatch />
+                    <p>Last activity: {response} Hours</p>
+                </span>
+                <span className="user-all">
+                    <FaCommentAlt />
+                    <p>Languages: {languages}</p>
+                </span>
+            </div>
+        </Container>
 
-
-        </div>
     );
 };
 

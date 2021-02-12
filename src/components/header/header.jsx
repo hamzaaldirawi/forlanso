@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { Navbar, Container } from 'react-bootstrap';
+
 import './header.scss';
 
 const Header = () => (
-    <div className = 'header'>
+    <Navbar className="navbar-light bg-light header">
+        <Container className="xl">
         <Link to = '/' className = 'logo-container'>
             <Logo className = 'logo'></Logo>
         </Link>
@@ -14,7 +17,8 @@ const Header = () => (
             <Link className = 'option' to = '/how-it-works'>How it works</Link>
             <Link className = 'option' to = '/ar'>عربي</Link>
         </div>
-    </div>
+        </Container>
+    </Navbar>
 );
 
 export default Header;
