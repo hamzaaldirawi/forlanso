@@ -1,15 +1,23 @@
 import {useState} from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
+import './portfolio.scss';
 
 const More = ({users}) => {
     const {portfolio} = users.data;
     
     return (
-        <div>
-        {
-            portfolio.slice(3).map(port => (
-            <img key={port.id} src={port.wImg} />
-            ))
-        }
+        <div className="port-div">
+        <Container>   
+            <Row>
+            {
+                portfolio.slice(3).map(port => (
+                    <Col lg={4}>
+                        <img className="image-port" key={port.id} src={port.wImg} />
+                    </Col>
+                ))
+            }
+            </Row>    
+        </Container>
         </div>
     )
 }
@@ -32,12 +40,18 @@ const PortfolioComp = ({users}) => {
         <div>
             <p id="portfolio">Portfolio</p>
             <div>
+            <Container>   
+                <Row>
                 {
                     portfolio.filter((port, idx) => idx < 3)
-                             .map(port => (
-                    <img key={port.id} src={port.wImg} />
-                    ))
+                        .map(port => (
+                            <Col lg={4}>
+                                <img className="image-port" key={port.id} src={port.wImg} />
+                            </Col>
+                        ))
                 }
+                </Row>
+            </Container>
                 <div> 
                 
                     <div onClick={toggle}>
