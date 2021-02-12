@@ -1,26 +1,39 @@
 .header {
-    height: 70px;
+    height: 110px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    background-color: rgba(191, 248, 248, 0.35);
 
     .logo-container {
         height: 100%;
-        width: 70px;
-        padding: 25px;
+        width: 193px;
+        padding: 27px;
+        margin-left: 35px;
     }
 
     .options {
-        width: 50%;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        margin-right: 35px;
 
-        .option {
-        padding: 10px 15px;
-        cursor: pointer;
+            .option {
+            font-family: 'Roborto';
+            padding: 10px 15px;
+            font-size: 24px;
+            cursor: pointer;
+            height: 32px;
+            text-decoration: none;
+            color: #000;
+            font-size: large;
+            transition: 0.5s;
         }
+
+        .option:hover {
+            font-size: larger;
+            font-weight: 700;
+        }
+
     }
 }
