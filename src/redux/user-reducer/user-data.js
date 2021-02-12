@@ -33,7 +33,9 @@ const USER_DATA = {
              "name_ar":null,
              "name_en":"Ux/Ui Desinger",
              "description_ar":null,
+             "servImg":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c214dad1.png",
              "description_en":"Thank you for Dropping into my GIG.\nDo you have a business idea for an app or website? Do you have an existing app but need a better user experience?\n\nI design websites \/web apps that not only look good and make sense but also increase revenue and user satisfaction.\n\n I provide high fidelity, modern and clean designs together with new UI\/UX trends.",
+             "about_service":"I will design a premium fashion logo with unlimited revision",
              "price":"10.00",
              "duration":4,
              "requirements_ar":null,
@@ -90,6 +92,8 @@ const USER_DATA = {
              "name_en":"provid ux ui design for your mobile app",
              "description_ar":null,
              "description_en":"Do you have a business idea for an app or website? Do you have an existing app but need a better user experience?\n\nI design mobile apps that not only look good and make sense but also increase revenue and user satisfaction.\n\n I provide high fidelity, modern and clean designs together with new UI\/UX trends.\nMy work process:-\n\n1- Analysis and Building User Experience\n\n1.1- UX analysis\n1.2- UI Sketching\n1.3- Wireframing\n1.4- Prototyping\n\n2- Designing User Interface\n\n2.1- UI analysis\n2.2- UI designing",
+             "about_service":"I will design a premium fashion logo with unlimited revision",
+             "servImg":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png",
              "price":"10.00",
              "duration":2,
              "requirements_ar":null,
@@ -139,7 +143,123 @@ const USER_DATA = {
                    "deleted_at":null
                 }
              ]
-          }
+          },
+          {
+            "id":1010,
+            "name_ar":null,
+            "name_en":"Ux/Ui Desinger",
+            "description_ar":null,
+            "servImg":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c214dad1.png",
+            "description_en":"Thank you for Dropping into my GIG.\nDo you have a business idea for an app or website? Do you have an existing app but need a better user experience?\n\nI design websites \/web apps that not only look good and make sense but also increase revenue and user satisfaction.\n\n I provide high fidelity, modern and clean designs together with new UI\/UX trends.",
+            "about_service":"I will design a premium fashion logo with unlimited revision",
+            "price":"10.00",
+            "duration":4,
+            "requirements_ar":null,
+            "requirements_en":"PLEASE CONTACT ME FOR CUSTOM ORDERS!\n\nPlease Inbox Before Ordering To avoid any confusion.\n\n-Description of your web\/app idea -Any resembling website, wireframe design to follow -Logos or banners -Color scheme and layout -Any other helping material",
+            "isCommission":0,
+            "isFeatured":0,
+            "rating":"5.00",
+            "isActive":1,
+            "isApproved":0,
+            "category_id":65,
+            "sub_category_id":111,
+            "user_id":682,
+            "created_at":"2021-01-24 16:17:42",
+            "updated_at":"2021-02-08 14:40:21",
+            "deleted_at":null,
+            "sold":3,
+            "progress":1,
+            "sub_category":{
+               "id":111,
+               "name":"UI/UX Design",
+               "icon":null,
+               "parent_id":65,
+               "isActive":1,
+               "deleted_at":null,
+               "created_at":null,
+               "updated_at":null
+            },
+            "files":[
+               {
+                  "id":569,
+                  "path":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c214dad1.png",
+                  "type":"png",
+                  "isDefault":1,
+                  "service_id":98,
+                  "created_at":"2021-01-28 07:47:45",
+                  "updated_at":"2021-01-28 07:47:45",
+                  "deleted_at":null
+               },
+               {
+                  "id":570,
+                  "path":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c2179948.png",
+                  "type":"png",
+                  "isDefault":0,
+                  "service_id":98,
+                  "created_at":"2021-01-28 07:47:45",
+                  "updated_at":"2021-01-28 07:47:45",
+                  "deleted_at":null
+               }
+            ]
+         },
+         {
+            "id":1011,
+            "name_ar":null,
+            "name_en":"Ux/Ui Desinger",
+            "description_ar":null,
+            "servImg":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c214dad1.png",
+            "description_en":"Thank you for Dropping into my GIG.\nDo you have a business idea for an app or website? Do you have an existing app but need a better user experience?\n\nI design websites \/web apps that not only look good and make sense but also increase revenue and user satisfaction.\n\n I provide high fidelity, modern and clean designs together with new UI\/UX trends.",
+            "about_service":"I will design a premium fashion logo with unlimited revision",
+            "price":"10.00",
+            "duration":4,
+            "requirements_ar":null,
+            "requirements_en":"PLEASE CONTACT ME FOR CUSTOM ORDERS!\n\nPlease Inbox Before Ordering To avoid any confusion.\n\n-Description of your web\/app idea -Any resembling website, wireframe design to follow -Logos or banners -Color scheme and layout -Any other helping material",
+            "isCommission":0,
+            "isFeatured":0,
+            "rating":"5.00",
+            "isActive":1,
+            "isApproved":0,
+            "category_id":65,
+            "sub_category_id":111,
+            "user_id":682,
+            "created_at":"2021-01-24 16:17:42",
+            "updated_at":"2021-02-08 14:40:21",
+            "deleted_at":null,
+            "sold":3,
+            "progress":1,
+            "sub_category":{
+               "id":111,
+               "name":"UI/UX Design",
+               "icon":null,
+               "parent_id":65,
+               "isActive":1,
+               "deleted_at":null,
+               "created_at":null,
+               "updated_at":null
+            },
+            "files":[
+               {
+                  "id":569,
+                  "path":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c214dad1.png",
+                  "type":"png",
+                  "isDefault":1,
+                  "service_id":98,
+                  "created_at":"2021-01-28 07:47:45",
+                  "updated_at":"2021-01-28 07:47:45",
+                  "deleted_at":null
+               },
+               {
+                  "id":570,
+                  "path":"https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/161182006560126c2179948.png",
+                  "type":"png",
+                  "isDefault":0,
+                  "service_id":98,
+                  "created_at":"2021-01-28 07:47:45",
+                  "updated_at":"2021-01-28 07:47:45",
+                  "deleted_at":null
+               }
+            ]
+         },
        ],
        "locations":"Palestinian Territory Occupied-Ghazzah",
        "provider_information":{
@@ -256,6 +376,40 @@ const USER_DATA = {
          'id': 1004,
          'wImg': 'https://images.squarespace-cdn.com/content/v1/5bdb21c71137a6c54d369c9d/1550169194335-2ZF2AQ19T4AOHHZPFSK5/ke17ZwdGBToddI8pDm48kCSWD7nHIiHZXf5sgvy-VnRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIX3aGRaYYyt7Keo_OZoWFTuBuY6EAlb68l_o2C8HpjIAKMshLAGzx4R3EDFOm1kBS/list-of-most-important-customer-service-skills-header.jpg', 
          },
+      ],
+      "reviews": [
+         {
+         'id': 5000,
+         'name':'Mohammed',
+         'stars': 5,
+         'userImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+         'date': "2020-12-10 07:55:44",
+         'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+         },
+         {
+            'id': 5001,
+            'name':'Mohammed',
+            'stars': 5,
+            'userImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+            'date': "2020-12-10 07:55:44",
+            'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+         },
+         {
+            'id': 5002,
+            'name':'Mohammed',
+            'stars': 5,
+            'userImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+            'date': "2020-12-10 07:55:44",
+            'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            },
+         {
+            'id': 5003,
+            'name':'Mohammed',
+            'stars': 5,
+            'userImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676826fc0.png', 
+            'date': "2020-12-10 07:55:44",
+            'comment': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+         }
       ]
    }
 }

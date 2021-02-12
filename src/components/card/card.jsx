@@ -11,7 +11,6 @@ import './card.scss';
 
 
 const UserCard = ({users}) => {
-    console.log(users.data)
     
     const {profile_image, first_name_en, last_name_en, stars, response} = users.data;
     const {experience, created_at, languages} = users.data.provider_information;
@@ -49,10 +48,5 @@ const UserCard = ({users}) => {
         </div>
     );
 };
-/*
-const mapStateToProps = createStructuredSelector({
-    users: selectUserProfile
-})
-*/
-// export default connect(mapStateToProps)(UserCard);
+
 export default UserCard;

@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 const More = ({users}) => {
     const {portfolio} = users.data;
+    
     return (
         <div>
         {
@@ -15,6 +16,7 @@ const More = ({users}) => {
 
 const PortfolioComp = ({users}) => {
     const {portfolio} = users.data;
+    
     const [hide, setHide] = useState(true);
     const [isOpened, setIsOpened] = useState(false);
 
@@ -59,12 +61,3 @@ const PortfolioComp = ({users}) => {
 }
 
 export default PortfolioComp;
-
-/*
-                <div onClick={() => setShowMore(true)}></div>
-                
-                    {showMore ? <More users={users} /> : null }
-                    
-                </div>
-
-*/

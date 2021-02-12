@@ -11,7 +11,8 @@ import Acheive from './components/achieve/achieve';
 import ServicesNav from './components/nav-in-services/nav-in-services';
 import About from './components/about/about';
 import PortfolioComp from './components/portfolio/portfolio';
-
+import ServicesCom from './components/services-com/services-com';
+import ReviewsCom from './components/reviews/reviews';
 
 const App = ({users}) => (
     <div>
@@ -22,6 +23,8 @@ const App = ({users}) => (
       <ServicesNav />
       <About users={users}/>
       <PortfolioComp users={users} />
+      <ServicesCom users={users} />
+      <ReviewsCom users={users} />
     </div>
 );
 
