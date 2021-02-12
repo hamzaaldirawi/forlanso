@@ -7,6 +7,8 @@ import { FaCommentAlt } from '@react-icons/all-files/fa/FaCommentAlt';
 
 import CustomButton from '../button/button';
 
+import './card.scss';
+
 
 const UserCard = ({users}) => {
     console.log(users.data)
@@ -20,7 +22,7 @@ const UserCard = ({users}) => {
 
     return (
         <div className='user-card'>
-            <img src={profile_image} alt={first_name_en}/>
+            <img className="image" src={profile_image} alt={first_name_en}/>
             <h1>{first_name_en} {last_name_en} </h1>
             <span><FaStar /> {stars}</span>
             <h2>{experience}</h2>
