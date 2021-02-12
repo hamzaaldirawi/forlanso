@@ -10,7 +10,7 @@ import UserCard from './components/card/card';
 import Acheive from './components/achieve/achieve';
 import ServicesNav from './components/nav-in-services/nav-in-services';
 import About from './components/about/about';
-import Portfolio from './components/portfolio/portfolio';
+import PortfolioComp from './components/portfolio/portfolio';
 
 
 const App = ({users}) => (
@@ -21,7 +21,7 @@ const App = ({users}) => (
       <Acheive users={users} />
       <ServicesNav />
       <About users={users}/>
-      <Portfolio users={users} />
+      <PortfolioComp users={users} />
     </div>
 );
 

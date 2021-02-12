@@ -1,20 +1,31 @@
 import {useState} from 'react';
 
-const Portfolio = ({users}) => {
+const More = ({users}) => {
     const {portfolio} = users.data;
+    return (
+        <div>
+        {
+            portfolio.slice(3).map(port => (
+            <img key={port.id} src={port.wImg} />
+            ))
+        }
+        </div>
+    )
+}
 
-    const [selected, setSelected] = useState(0);
+const PortfolioComp = ({users}) => {
+    const {portfolio} = users.data;
+    const [hide, setHide] = useState(true);
+    const [isOpened, setIsOpened] = useState(false);
 
-    const moveNext = (portfolio) => {
-        if(portfolio.length > 3) {
-            {
-                portfolio.filter((port, idx) => 3 < idx < portfolio.length)
-                         .map(port => (
-                <img key={port.id} src={port.wImg} />
-                ))
-            }
-        } 
+    function toggle() {
+      setIsOpened(wasOpened => !wasOpened);
     }
+
+    function hideShow() {
+        setHide(wasShow => !wasShow);
+    }
+  
     return (
         <div>
             <p id="portfolio">Portfolio</p>
@@ -25,10 +36,35 @@ const Portfolio = ({users}) => {
                     <img key={port.id} src={port.wImg} />
                     ))
                 }
-            <div onClick={moveNext}>Load more</div>
+                <div> 
+                
+                    <div onClick={toggle}>
+                        
+                        <p onClick={hideShow}>
+                            {
+                            hide ? <p>Show More </p> : null
+                            }
+                        </p>
+                    </div>
+                    {isOpened && (
+                        <div className="boxContent">
+                             <More users={users} />
+                        </div>
+                    )}
+                </div>
+                                
             </div>
         </div>
     );
 }
 
-export default Portfolio;
+export default PortfolioComp;
+
+/*
+                <div onClick={() => setShowMore(true)}></div>
+                
+                    {showMore ? <More users={users} /> : null }
+                    
+                </div>
+
+*/

@@ -254,7 +254,7 @@ const USER_DATA = {
          },
          {
          'id': 1004,
-         'wImg': 'https:\/\/forlanso-store.fra1.cdn.digitaloceanspaces.com\/public\/services\/682\/16118188566012676800270.png', 
+         'wImg': 'https://images.squarespace-cdn.com/content/v1/5bdb21c71137a6c54d369c9d/1550169194335-2ZF2AQ19T4AOHHZPFSK5/ke17ZwdGBToddI8pDm48kCSWD7nHIiHZXf5sgvy-VnRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIX3aGRaYYyt7Keo_OZoWFTuBuY6EAlb68l_o2C8HpjIAKMshLAGzx4R3EDFOm1kBS/list-of-most-important-customer-service-skills-header.jpg', 
          },
       ]
    }
